@@ -2,7 +2,6 @@
 	<path id="classpath">
 
 
-	<target name="compile">
 		<mkdir dir="build/classes" />
 		<javac srcdir="src" destdir="build/classes" classpathref="classpath" includeantruntime="false" />
 	</target>
