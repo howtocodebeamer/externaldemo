@@ -4,7 +4,6 @@
 		<mkdir dir="build/jar" />
 		<jar destfile="build/jar/xunit-example.jar" basedir="build/classes">
 			<manifest>
-				<attribute name="Main-Class" value="com.intland.xunit.Main" />
 			</manifest>
 		</jar>
 	</target>
