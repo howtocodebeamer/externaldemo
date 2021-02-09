@@ -24,7 +24,6 @@
 	</target>
 
 	<target name="report" depends="coverage">
-		<jacoco:report>
 			<executiondata>
 				<file file="jacoco.exec" />
 			<structure name="JaCoCo Example">
