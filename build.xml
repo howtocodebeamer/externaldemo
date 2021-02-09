@@ -27,7 +27,6 @@
 		<jacoco:report>
 			<executiondata>
 				<file file="jacoco.exec" />
-			</executiondata>
 			<structure name="JaCoCo Example">
 				<classfiles>
 					<fileset dir="build/classes" />
