@@ -16,7 +16,6 @@
 			<junit fork="true" forkmode="once">
 				<classpath refid="classpath" />
 				<classpath location="build/classes" />
-				<test name="com.intland.xunit.GatherComputerInfoTest" haltonfailure="no" todir="reports/">
 					<formatter type="xml" />
 				</test>
 			</junit>
