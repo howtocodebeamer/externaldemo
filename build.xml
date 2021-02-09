@@ -141,7 +141,7 @@
 		</jacoco:coverage>
 	</target>
 
-	<target name="report" depends="coverage">
+	<target name="report" depends="overage">
 		<jacoco:report>
 			<executiondata>
 				<file file="jacoco.exec" />
