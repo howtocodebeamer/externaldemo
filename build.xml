@@ -25,11 +25,7 @@
 	<target name="report" depends="coverage">
 			<executiondata>
 				<file file="jacoco.exec" />
-			<structure name="JaCoCo Example">
-				<classfiles>
-					<fileset dir="build/classes" />
-				</classfiles>
-				<sourcefiles encoding="UTF-8">
+			<structur
 					<fileset dir="src" />
 				</sourcefiles>
 			</structure>
