@@ -1,11 +1,5 @@
 <project name="xunit-example" xmlns:jacoco="antlib:org.jacoco.ant">
-	
-	<target name="jar">
-		<mkdir dir="build/jar" />
-		<jar destfile="build/jar/xunit-example.jar" basedir="build/classes">
-			<manifest>
-			</manifest>
-		</jar>
+
 	</target>
 
 	<target name="run" depends="compile">
