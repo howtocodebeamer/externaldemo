@@ -2,15 +2,6 @@
 
 	</target>
 
-	<target name="run" depends="compile">
-
-		
-	
-			</junit>
-		</jacoco:coverage>
-	</target>
-
-	<target name="report" depends="coverage">
 			<executiondata>
 				<file file="jacoco.exec" />
 			<structur
